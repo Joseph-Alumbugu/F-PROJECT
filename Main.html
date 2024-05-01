@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>${Title}</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Sticky footer styles */
+        html {
+            position: relative;
+            min-height: 100%;
+            background-color: lightcoral;
+        }
+
+        body {
+            /* Margin bottom by footer height */
+            margin-bottom: 60px;
+            background-color: lightcoral;
+        }
+
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        /* Set the fixed height of the footer here */
+        height: 60px;
+        background-color: beige;
+      }
+
+      .container .text-muted {
+        margin: 20px 0;
+      }
+
+       
+        
+
+        .navbar
+            {
+            background-color: #ff6a00;
+
+        }
+        .formpage{
+            text-align: center;
+            justify-content: center;
+            align-items:center;
+        }
+        .form {
+            background-color: beige;
+            padding : 1rem;
+            
+
+        }
+
+        .btn:hover{
+
+            background-color:bisque;
+            text-transform:unset;
+        }
+            
+
+    </style>
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <a class="navbar-brand" href="#">Your App</a>
+              </div>
+              <div id="navbar" class="collapse navbar-collapse">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0" ws-hole="MenuBar"></ul>
+                  <ul class="nav navbar-nav navbar-right">
+                      <li>
+                          <a href="https://websharper.com" class="nav-link">WebSharper</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+      <div class="container m-2 p-2">
+          <div ws-replace="Body">
+              <div ws-template="MainForm">
+                  <hr class="w-50" />
+                  <div class="input-group w-50 my-3">
+                      <input type="text"
+                             class="form-control"
+                             aria-label="message"
+                             ws-var="Texter" />
+                      <button class="btn btn-outline-primary" ws-onclick="OnSend">
+                          Send
+                      </button>
+                  </div>
+                  <div class="alert alert-dark w-50" style="word-wrap: break-word">
+                      Server response: ${Reversed}
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="formpage" ws-template="Forms">
+          <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
+              Forms
+          </h2>
+          <div ws-replace="FormContainer">
+              <div ws-children-template="Form1">
+                  <!-- General elements -->
+                  <h4 class="mb-4 text-lg font-semibold text-gray-600 dark:text-gray-300">
+                      ${Title}
+                  </h4>
+                  <h1>${Desc}</h1>
+                  <div class="form">
+                      <label class="block text-sm">
+                          <span class="text-gray-700 dark:text-gray-400">Name</span>
+                          <input ws-var="Name" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input"
+                                 placeholder="Jane Doe" />
+                      </label>
+                      <br />
+
+                      <label class="block mt-4 text-sm">
+                          <span class="text-gray-700 dark:text-gray-400">
+                              Customer Experience
+                          </span>
+                          <select ws-var="ux" class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-select focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray">
+                              <option>Dissatified</option>
+                              <option>Neutral</option>
+                              <option>Satisfied</option>
+                              <option>Delighted</option>
+                          </select>
+                      </label>
+                      
+                      <br />
+                      <label class="block mt-4 text-sm">
+                          <span class="text-gray-700 dark:text-gray-400">Message</span><br />
+                          <textarea ws-var="Message" class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray"
+                                    rows="3"
+                                    placeholder="Enter some long form content."></textarea>
+                      </label>
+                      <br />
+                      <div class="flex mt-6 text-sm">
+                          <label class="flex items-center dark:text-gray-400">
+                              <input ws-var="PrivacyPolicy" type="checkbox"
+                                     class="text-purple-600 form-checkbox focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray" />
+                              <span class="ml-2">
+                                  I agree to the
+                                  <span class="underline">privacy policy</span>
+                              </span>
+                          </label>
+                      </div>
+                      <br />
+                      <div class="btn">
+                          <button ws-onclick="OnSubmit" >
+                              Submit
+                          </button>
+                      </div>
+
+                  </div>
+              </div>
+              </div>
+              </div>
+
+              
+              <footer class="footer">
+                  <div class="container">
+                      <p class="text-muted text-center">
+                          This is an f# project using websharper Templating <a href="https://github.com/intellifactory/ClientServer.Azure">GitHub</a>, or
+                          read more <a href="https://websharper.com/blog-entry/4368/deploying-websharper-apps-to-azure-via-github">here</a>.
+                      </p>
+                  </div>
+              </footer>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+                      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+                      crossorigin="anonymous"></script>
+              <script ws-replace="scripts"></script>
+</body>
+</html>
