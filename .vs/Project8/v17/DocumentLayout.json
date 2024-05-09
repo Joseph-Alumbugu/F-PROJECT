@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josep\\source\\repos\\Project8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C280634-E4A8-4180-A76B-F32FF2C924E7}|Project8.fsproj|c:\\users\\josep\\source\\repos\\project8\\site.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{3C280634-E4A8-4180-A76B-F32FF2C924E7}|Project8.fsproj|solutionrelative:site.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C280634-E4A8-4180-A76B-F32FF2C924E7}|Project8.fsproj|c:\\users\\josep\\source\\repos\\project8\\main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3C280634-E4A8-4180-A76B-F32FF2C924E7}|Project8.fsproj|solutionrelative:main.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C280634-E4A8-4180-A76B-F32FF2C924E7}|Project8.fsproj|c:\\users\\josep\\source\\repos\\project8\\client.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{3C280634-E4A8-4180-A76B-F32FF2C924E7}|Project8.fsproj|solutionrelative:client.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 21,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Site.fs",
+              "DocumentMoniker": "C:\\Users\\josep\\source\\repos\\Project8\\Site.fs",
+              "RelativeDocumentMoniker": "Site.fs",
+              "ToolTip": "C:\\Users\\josep\\source\\repos\\Project8\\Site.fs",
+              "RelativeToolTip": "Site.fs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-01T16:35:36.549Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.html",
+              "DocumentMoniker": "C:\\Users\\josep\\source\\repos\\Project8\\Main.html",
+              "RelativeDocumentMoniker": "Main.html",
+              "ToolTip": "C:\\Users\\josep\\source\\repos\\Project8\\Main.html",
+              "RelativeToolTip": "Main.html",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAD0AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-05-01T16:47:38.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Client.fs",
+              "DocumentMoniker": "C:\\Users\\josep\\source\\repos\\Project8\\Client.fs",
+              "RelativeDocumentMoniker": "Client.fs",
+              "ToolTip": "C:\\Users\\josep\\source\\repos\\Project8\\Client.fs",
+              "RelativeToolTip": "Client.fs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-05-01T16:29:07.864Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 344,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

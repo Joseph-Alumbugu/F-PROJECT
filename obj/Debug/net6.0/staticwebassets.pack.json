@@ -1,0 +1,137 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\Project8.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\Project8.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\Project8.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\Project8.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Collections.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Collections.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Collections.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Collections.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Control.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Control.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Control.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Control.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Core.JavaScript\\Runtime.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Core.JavaScript\\Runtime.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Core.JavaScript\\Runtime.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Core.JavaScript\\Runtime.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Forms.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Forms.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Forms.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Forms.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.JavaScript\\Cookies.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.JavaScript\\Cookies.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Main.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Main.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Main.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Main.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Main\\AnimFrame.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Main\\AnimFrame.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Main\\AnimFrame.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Main\\AnimFrame.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Main\\Json.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Main\\Json.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Main\\Json.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Main\\Json.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.MathJS.Extensions.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.MathJS.Extensions.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.MathJS.Extensions.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.MathJS.Extensions.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Sitelets.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Sitelets.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Sitelets.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Sitelets.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.UI.Templating.Runtime.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.UI.Templating.Runtime.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.UI.Templating.Runtime.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.UI.Templating.Runtime.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.UI.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.UI.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.UI.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.UI.min.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.UI\\closest.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.UI\\closest.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.UI\\h5f.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.UI\\h5f.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Web.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Web.js"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\Project8\\wwwroot\\Scripts\\WebSharper\\WebSharper.Web.min.js",
+      "PackagePath": "staticwebassets\\Scripts\\WebSharper\\WebSharper.Web.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Project8.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Project8.props",
+      "PackagePath": "build\\Project8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Project8.props",
+      "PackagePath": "buildMultiTargeting\\Project8.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Project8.props",
+      "PackagePath": "buildTransitive\\Project8.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
