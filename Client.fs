@@ -57,3 +57,26 @@ module Client =
                 .OnSubmit(fun e -> submitter.Trigger())
                 .Doc()
         )
+  let Chartpage (name, ux, options, message, pp) =
+     // Get the canvas element for the chart
+     let canvas = JsInterop.GetElementById "experienceChart" :?> Dom.CanvasElement
+     let ctx = canvas.Context2D
+
+     // Define data for the chart
+     let labels = [|"Dissatisfied"; "Neutral"; "Satisfied"; "Delighted"|]
+     let data = [|options.Dissatified; options.Neutral; options.Satisfied; options.Delighted|]
+     
+     // Clear previous chart
+     ctx.ClearRect(0.0, 0.0, canvas.Width.ToFloat(), canvas.Height.ToFloat())
+
+     // Draw the chart using Chart.js
+     ChartJs.Chart(ctx, {| 
+         Type = ChartType.Bar;
+         Data = {
+             Labels = labels;
+             Datasets = [| {| Label = "Customer Experience"; Data = data; BackgroundColor = [| "#ff6384"; "#36a2eb"; "#ffce56"; "#4bc0c0"|]; BorderColor = [| "#ff6384"; "#36a2eb"; "#ffce56"; "#4bc0c0"|]; BorderWidth = 1 |} |];
+         };
+         Options = {| Scales = {| Y = {| BeginAtZero = true |} |} |}
+     |}) |> ignore
+
+       
