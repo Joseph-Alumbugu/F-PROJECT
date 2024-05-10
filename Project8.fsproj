@@ -15,6 +15,8 @@
 
   <ItemGroup>
     <PackageReference Include="WebSharper" Version="6.1.5.317" />
+    <PackageReference Include="WebSharper.Charting" Version="6.1.1.269" />
+    <PackageReference Include="WebSharper.ChartJs" Version="6.1.1.269" />
     <PackageReference Include="WebSharper.Forms" Version="6.1.1.269" />    
     <PackageReference Include="WebSharper.FSharp" Version="6.1.5.317" />
     <PackageReference Include="WebSharper.MathJS" Version="6.1.5.317" />

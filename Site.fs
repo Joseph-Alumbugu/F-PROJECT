@@ -7,7 +7,8 @@ open WebSharper.UI.Server
 
 type EndPoint =
     | [<EndPoint "/">] Home
-    | [<EndPoint "/Form">] Form
+    | [<EndPoint "/feedback">] CustomerFeedback
+    | [<EndPoint "/summary">] Summary
 
 module Templating =
     open WebSharper.UI.Html
@@ -24,7 +25,8 @@ module Templating =
             ]
         [
             "Home" => EndPoint.Home
-            "Form" => EndPoint.Form
+            "Form" => EndPoint.CustomerFeedback
+            "Summary" => EndPoint.Summary
         ]
 
     let Main ctx action (title: string) (body: Doc list) =
@@ -47,10 +49,16 @@ module Site =
             div [] [client (Client.Main())]
         ]
 
-    let FormPage ctx =
-        Templating.Main ctx EndPoint.Form "Form" [
+    let CustomerFeedbackPage ctx =
+        Templating.Main ctx EndPoint.CustomerFeedback "Form" [
             h1 [] [text "Contact Form"]
-            div [] [client (Client.CreditRequest())]
+            div [] [client (Client.CustomerFeedback())]
+        ]
+
+    let SummaryPage ctx =
+        Templating.Main ctx EndPoint.Summary "Summary" [
+            h1 [] [text "Customer feedback so far"]
+            div [] [client (Client.SummaryPage())]
         ]
 
     [<Website>]
@@ -58,6 +66,7 @@ module Site =
         Application.MultiPage (fun ctx endpoint ->
             match endpoint with
             | EndPoint.Home -> HomePage ctx
-            | EndPoint.Form -> FormPage ctx
+            | EndPoint.CustomerFeedback -> CustomerFeedbackPage ctx
+            | EndPoint.Summary -> SummaryPage ctx
         )
 
